@@ -17,7 +17,7 @@ public class PyForMindustry extends Plugin {
     	Log.info("Hello, java!");
         PythonInterpreter pyInterp = new PythonInterpreter();
     	try {
-	      pyInterp.exec("print('Jython succesfully loaded!')");
+	      pyInterp.exec("print('Test')");
 	    }
         catch (Exception e){
             Log.info("Cannot load jython!");
